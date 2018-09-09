@@ -9,7 +9,7 @@ const rename = name =>
 
 export default {
 	input: path.join(__dirname + '/index.vue'),
-	external: ['vue', 'whatwg-fetch'],
+	external: ['vue', 'unfetch'],
 	plugins: [
 		vue(),
 		babel({

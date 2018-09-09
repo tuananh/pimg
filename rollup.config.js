@@ -4,7 +4,7 @@ let pkg = require('./package.json')
 
 export default {
 	input: 'src/index.js',
-	external: ['react', 'whatwg-fetch'],
+	external: ['react', 'unfetch'],
 	plugins: [
 		babel({
 			exclude: 'node_modules/**',

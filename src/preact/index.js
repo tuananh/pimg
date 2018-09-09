@@ -1,6 +1,6 @@
 import { h, Component } from 'preact'
 import PropTypes from 'prop-types'
-import 'whatwg-fetch'
+import 'unfetch/polyfill'
 
 import config from '../config'
 

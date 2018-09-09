@@ -54,7 +54,7 @@
 		"rollup-plugin-babel": "^3.0.3",
 		"rollup-plugin-vue": "^3.0.0",
 		"uglifyjs": "^2.4.11",
-		"vue-template-compiler": "^2.5.13",
-		"whatwg-fetch": "^2.0.3"
+		"unfetch": "^3.1.1",
+		"vue-template-compiler": "^2.5.13"
 	}
 }

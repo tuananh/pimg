@@ -8,7 +8,7 @@ const rename = name =>
 
 export default {
 	input: path.join(__dirname + '/index.js'),
-	external: ['preact', 'whatwg-fetch'],
+	external: ['preact', 'unfetch'],
 	plugins: [
 		babel({
 			exclude: 'node_modules/**',
